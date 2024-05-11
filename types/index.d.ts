@@ -246,6 +246,7 @@ declare interface TransactionTableProps {
 
 declare interface CategoryProps {
   category: CategoryCount;
+  indicatorClassName: string;
 }
 
 declare interface DoughnutChartProps {
